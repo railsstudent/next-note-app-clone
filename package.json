@@ -1,0 +1,41 @@
+{
+  "name": "next-note-app-clone",
+  "version": "1.0.0",
+  "description": "Note app based on frontend masters course https://frontendmasters.com/courses/next-js/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "keywords": [
+    "next",
+    "react",
+    "spa",
+    "static site"
+  ],
+  "author": "Connie Leung",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/react": "^16.9.50",
+    "prettier": "^2.1.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^5.0.0",
+    "typescript": "^4.0.3"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true
+  }
+}
